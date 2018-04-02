@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    tools:context="com.qrees.activity.HomeActivity">
+
+    <include
+        android:id="@+id/layout_for_toolbar"
+        layout="@layout/actionbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_alignParentTop="true" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_for_toolbar">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_for_toolbar"
+        android:background="@color/white" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/menu_green"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        fab:menu_icon="@drawable/menu"
+        fab:menu_fab_size="normal"
+        fab:menu_colorNormal="@color/green"
+        fab:menu_colorPressed="@color/green"
+        fab:menu_labels_ellipsize="end"
+        fab:menu_labels_singleLine="true"
+
+        fab:menu_labels_colorNormal="#00000000"
+        fab:menu_labels_showShadow="false"
+        fab:menu_backgroundColor="#D8000000">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_addVideos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/add_video"
+
+            fab:fab_colorNormal="@color/white"
+            fab:fab_colorPressed="@color/green"
+            fab:fab_colorRipple="@color/green"
+
+            fab:fab_size="mini"
+            fab:fab_label="Add Videos" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/profile"
+            android:padding="@dimen/_5sdp"
+
+            fab:fab_colorNormal="@color/white"
+            fab:fab_colorPressed="@color/green"
+            fab:fab_colorRipple="@color/green"
+
+            fab:fab_size="mini"
+            fab:fab_label="Profile" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_aboutUs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/info"
+
+            fab:fab_colorNormal="@color/white"
+            fab:fab_colorPressed="@color/green"
+            fab:fab_colorRipple="@color/green"
+
+            fab:fab_size="mini"
+            fab:fab_label="About Us" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_TandC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/terms"
+
+            fab:fab_colorNormal="@color/white"
+            fab:fab_colorPressed="@color/green"
+            fab:fab_colorRipple="@color/green"
+
+            fab:fab_size="mini"
+            fab:fab_label="Terms and Conditions" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logout"
+
+            fab:fab_colorNormal="@color/white"
+            fab:fab_colorPressed="@color/green"
+            fab:fab_colorRipple="@color/green"
+
+            fab:fab_size="mini"
+            fab:fab_label="Logout" />
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+</RelativeLayout>

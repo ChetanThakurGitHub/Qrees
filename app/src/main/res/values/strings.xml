@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Qrees</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="validEmail">Please enter a valid email address</string>
+    <string name="username">Full Name</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="don_t_have_an_account">Don\'t have an account ?</string>
+    <string name="login">Login</string>
+    <string name="post">Post</string>
+    <string name="email">Email</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="add_video">Add Video</string>
+    <string name="fullname_v">Please enter fullname</string>
+    <string name="email_v">Please enter email</string>
+    <string name="caption_v">Please enter caption</string>
+    <string name="video_v">Please select video to upload</string>
+    <string name="password_v">Please enter password</string>
+    <string name="already_have_an_account">Already have an account ?</string>
+    <string name="home">Home</string>
+    <string name="caption">Caption…</string>
+    <string name="check_net_connection">Please Check internet connection.!</string>
+    <string name="password_required">Your password must be at least 6 character long</string>
+    <string name="fullname_required">Your fullname must be at least 3 character long</string>
+    <string name="for_exit">Please click BACK again to exit.</string>
+    <string name="logout">User logout successfully</string>
+    <string name="under_development">Under Development</string>
+    <string name="location">Location</string>
+    <string name="share_on">Share On</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="linkedin">Linkedin</string>
+    <string name="map_key">AIzaSyBk2JJO_EXeiJHJPku8p1LsrQHvD5EgBYU</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="forgot_dis">Please enter your email address to retrieve your password.</string>
+    <string name="password_title">Reset My Password</string>
+    <string name="change_pass_title">Change Password</string>
+    <string name="profile_title">Profile</string>
+    <string name="aboutus_title">About Us</string>
+    <string name="comment_title">Comments</string>
+    <string name="video_play">There is no video player installed in your phone.</string>
+    <string name="video_take">Take new video</string>
+    <string name="no_connection">No Connection</string>
+    <string name="network_msg">There\'s no network connection. Make sure the your\'re connected to a Wi-fi or mobile network and try again.</string>
+    <string name="uploading">Uploading</string>
+    <string name="about_dis">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchs popularised in Lorem Ipsum is simply dummy text of the printing and typesetting industry.</string>
+    <string name="about_title">Lorem Ipsum</string>
+    <string name="like">Like</string>
+    <string name="comment">Comment</string>
+    <string name="views">View</string>
+    <string name="share">Share</string>
+    <string name="comment_hint">Write a Comment here</string>
+    <string name="no_comment">No comment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="update">Update</string>
+    <string name="change_password">Change Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="you_did_not_view_any_video">You did not view any video</string>
+    <string name="you_did_not_uplode_any_video_yet">You did not uplode any video yet</string>
+
+</resources>
