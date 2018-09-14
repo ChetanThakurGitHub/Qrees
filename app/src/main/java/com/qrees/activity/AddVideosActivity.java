@@ -1,6 +1,7 @@
 package com.qrees.activity;
 
 import android.Manifest;
+import android.annotation.SuppressLint;
 import android.app.Dialog;
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -511,6 +512,7 @@ public class AddVideosActivity extends AppCompatActivity implements View.OnClick
         dialog.show();
     }
 
+    @SuppressLint("StaticFieldLeak")
     private void uploadeVideo() {
 
         videoDialog();
